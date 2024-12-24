@@ -12,6 +12,7 @@
     justify-content: left;
     display: flex;
     border-bottom: solid 1px #8b8b8b;
+    user-select: none;
 }
 
 .navbar-item {

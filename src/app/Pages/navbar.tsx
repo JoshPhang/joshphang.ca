@@ -13,7 +13,7 @@ export default function Navbar() {
           <a className="navbar-text clickable" href="/#about">About</a>
         </div>
         <div className="navbar-item">
-          <a className="navbar-text clickable">Projects</a>
+          <a className="navbar-text clickable" href="/#projects">Projects</a>
         </div>
       </div>
     );

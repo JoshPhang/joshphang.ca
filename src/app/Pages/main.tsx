@@ -1,5 +1,4 @@
 import "../Styles/main.css"
-import pfp from "../Assets/pfp.png"
 
 export default function Main() {
     return (

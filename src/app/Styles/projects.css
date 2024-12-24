@@ -1,0 +1,111 @@
+.projects-page {
+    height: 200vh;
+    width: 100vw;
+    background-color: #121212;
+}
+
+.projects-title {
+    padding-top: 12vh;
+    width: 100vw;
+    height: 25vh;
+    text-align: center;
+    font-size: 48px;
+}
+
+.quarter-border {
+    height: 2px;
+    width: 40%;
+    background-color: #3f3f3f;
+    justify-self: center;
+}
+
+.project-timeline {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    margin-top: 40px;
+    height: 70vh;
+    width: 50vw;
+    justify-self: center;
+    /* background-color: darkred; */
+}
+
+.project-date {
+    width: 10vw;
+    height: 25px;
+    font-size: 18px;
+    text-align: right;
+    /* background-color: orange; */
+}
+
+.project-center-thin{
+    width: 10vw;
+    height: 25px;
+    /* background-color: yellow; */
+}
+
+.project-dot {
+    background-color: #20422b;
+    width: 15px;
+    height: 15px;
+    justify-self: center;
+    margin-top: 5px;
+    border-radius: 100%;
+}
+
+.project-title {
+    width: 30vw;
+    height: 25px;
+    text-align: left;
+    font-size: 18px;
+    /* background-color: green; */
+}
+
+.project-role {
+    width: 10vw;
+    /* background-color: darkgray; */
+    text-align: right;
+    font-size: 14px;
+    color: #bbbbbb;
+}
+
+.project-center-thick {
+    width: 10vw;
+    /* background-color: aqua; */
+}
+
+.project-line {
+    width: 3px;
+    margin-top: -10px;
+    background-color: #20422b;
+    justify-self: center;
+}
+
+.project-desc {
+    width: 30vw;
+    text-align: left;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.proj1 {
+    height: 250px;
+}
+
+.proj2 {
+    height: 350px;
+}
+
+.proj3 {
+    height: 400px;
+}
+
+li {
+    color: #bbbbbb;
+    margin-top: 10px;
+    list-style-type: disc;
+}
+
+.weblink {
+    text-decoration: underline;
+}

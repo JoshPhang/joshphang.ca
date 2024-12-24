@@ -3,6 +3,8 @@
     display: flex;
     overflow-x: hidden;
     align-items: center;
+    cursor: default;
+    user-select: none;
 }
 
 .label {
@@ -20,7 +22,7 @@
     opacity: 0;
     text-align: left;
     color: #ffffff;
-    animation: 3s fade-in;
+    animation: 3s fade-in-main;
     animation-fill-mode: forwards;
     border-bottom: 2px solid #bbbbbb;
 }
@@ -31,7 +33,7 @@
     text-align: left;
     padding-top: 20px;
     opacity: 0;
-    animation: 3s fade-in;
+    animation: 3s fade-in-main;
     animation-fill-mode: forwards;
     animation-delay: 1.5s;
 }
@@ -43,7 +45,7 @@
     text-align: left;
     padding-left: 100px;
     opacity: 0;
-    animation: 3s fade-in;
+    animation: 3s fade-in-main;
     animation-fill-mode: forwards;
     animation-delay: 1.5s;
 }
@@ -53,7 +55,7 @@
     width: 350px;
     margin-top: 50px;
     opacity: 0;
-    animation: 3s fade-in;
+    animation: 3s fade-in-main;
     animation-fill-mode: forwards;
 }
 
@@ -61,7 +63,7 @@
     border-radius: 100%;
 }
 
-@keyframes fade-in {
+@keyframes fade-in-main {
     0% {
         opacity: 0;
     }
