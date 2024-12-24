@@ -1,0 +1,71 @@
+.main-page {
+    height: 100vh;
+    display: flex;
+    overflow-x: hidden;
+    align-items: center;
+}
+
+.label {
+    height: 450px;
+    width: 800px;
+    margin-left: 10vw;
+    overflow-y: hidden;
+}
+
+.my-name {
+    height: 50%;
+    width: 100%;
+    font-size: 96px;
+    padding-top: 10vh;
+    opacity: 0;
+    text-align: left;
+    color: #ffffff;
+    animation: 3s fade-in;
+    animation-fill-mode: forwards;
+    border-bottom: 2px solid #bbbbbb;
+}
+
+.uni {
+    color: #bbbbbb;
+    font-size: 40px;
+    text-align: left;
+    padding-top: 20px;
+    opacity: 0;
+    animation: 3s fade-in;
+    animation-fill-mode: forwards;
+    animation-delay: 1.5s;
+}
+
+.role {
+    color: #bbbbbb;
+    height: 50%;
+    font-size: 32px;
+    text-align: left;
+    padding-left: 100px;
+    opacity: 0;
+    animation: 3s fade-in;
+    animation-fill-mode: forwards;
+    animation-delay: 1.5s;
+}
+
+.picture {
+    height: 350px;
+    width: 350px;
+    margin-top: 50px;
+    opacity: 0;
+    animation: 3s fade-in;
+    animation-fill-mode: forwards;
+}
+
+.pfp {
+    border-radius: 100%;
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

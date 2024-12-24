@@ -1,0 +1,51 @@
+@font-face {
+    font-family: roboto-regular;
+    src: url('../Fonts/Roboto-Regular.ttf');
+} 
+
+.navbar {
+    position: fixed;
+    width: 100vw;
+    height: min(20vw,70px);
+    z-index: 100;
+    background-color: #121212;
+    justify-content: left;
+    display: flex;
+    border-bottom: solid 1px #8b8b8b;
+}
+
+.navbar-item {
+    position: relative;
+    /* background-color: blue; */
+    height: 100%;
+    width: 100px;
+    /* margin-left: min(20px, 2%); */
+    text-align: left;
+}
+
+.navbar-logo {
+    position: relative;
+    height: 100%;
+    aspect-ratio: 1/1;
+    margin-right: min(30px,2%);
+}
+
+.navbar-text {
+    position: absolute;
+    height: 50%;
+    width: 70%;
+    /* background-color: orange; */
+    color: #8b8b8b;
+    bottom: 0;
+    left: 0;
+    font-family: roboto-regular;
+}
+
+.clickable:hover {
+    cursor: pointer;
+    color: #ffffff;
+}
+
+.logo {
+    padding: 10px;
+}

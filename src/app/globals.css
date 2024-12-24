@@ -2,20 +2,35 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Black
+#121212
+#282828
+#3f3f3f
+#575757
+#717171
+#8b8b8b
+#bbbbbb
+#ffffff
+White */
+
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #121212;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: #121212;
     --foreground: #ededed;
   }
 }
+
+html { scroll-behavior: smooth; }
 
 body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
 }
