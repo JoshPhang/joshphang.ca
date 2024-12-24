@@ -14,16 +14,18 @@ export default function About() {
           <div className="desc-text">(236)-818-5141</div>
           <div className="spacer"></div>
           <div className="desc-label">Email:</div>
-          <div className="desc-text">joshua.phang999@gmail.com</div>
+          <div className="desc-text">
+            joshua.phang999@gmail.com
+          </div>
           <div className="spacer"></div>
           <div className="desc-label">Location:</div>
           <div className="desc-text">Vancouver, BC</div>
           <div className="spacer"></div>
           <div className="desc-links">
-            <a href="https://linkedin.com/in/joshphang" target="_blank" rel="noopener noreferrer">
+            <a href="https://linkedin.com/in/joshphang" target="_blank" rel="noopener noreferrer" className="img-click">
               <img src="/assets/linkedin.jpg" alt="linkedin.com/in/joshphang" className="logo-link"/>
             </a>
-            <a href="https://github.com/joshphang" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/joshphang" target="_blank" rel="noopener noreferrer" className="img-click">
               <img src="/assets/github.jpg" alt="github.com/joshphang" className="logo-link" />
             </a>
           </div>

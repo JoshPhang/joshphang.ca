@@ -48,47 +48,47 @@
     cursor: default;
 }
 
-@keyframes fade-in-right{
-    10% {
+@keyframes fade-in-right-p2{
+    0% {
         opacity: 0;
         margin-left: -100px;
     }
-    33% {
+    25% {
         opacity: 1;
         margin-left: 0px;
     }
 }
 
-@keyframes fade-in-left{
-    10% {
+@keyframes fade-in-left-p2{
+    0% {
         opacity: 0;
         margin-left: 200px;
     }
-    33% {
+    25% {
         opacity: 1;
         margin-left: 0px;
     }
 }
 
-@keyframes fade-in-up{
+@keyframes fade-in-up-p2{
     0% {
         opacity: 0;
         margin-top: 500px;
     }
-    33% {
+    25% {
         opacity: 1;
         margin-top: 0px;
     }
 }
 
-@keyframes fade-in{
-    10% {
+@keyframes fade-in-p2{
+    0% {
         opacity: 0;
     }
     20% {
         box-shadow: none;
     }
-    33% {
+    25% {
         opacity: 1;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
@@ -97,19 +97,19 @@
 @media (prefers-reduced-motion: no-preference) {
     @supports (animation-timeline: scroll()) {
       .picture-popout {
-        animation: fade-in-right linear both;
+        animation: fade-in-right-p2 linear both;
         animation-timeline: scroll();
       }
       .popout-desc {
-        animation: fade-in-left linear both;
+        animation: fade-in-left-p2 linear both;
         animation-timeline: scroll();
       }
       .profile-popout {
-        animation: fade-in linear both;
+        animation: fade-in-p2 linear both;
         animation-timeline: scroll();
       }
       .about-box {
-        animation: fade-in-up linear both;
+        animation: fade-in-up-p2 linear both;
         animation-timeline: scroll();
       }
     }
@@ -143,6 +143,7 @@
     height: 50vh;
     width: 50vw;
     padding: 50px;
+    user-select: none;
 }
 
 .about-text {
@@ -169,9 +170,14 @@
 }
 
 .logo-link {
+    border-radius: 100%;
+    cursor: pointer;
+    user-select: none;
+}
+
+.img-click {
     margin: 20px;
     width: 50px;
     height: 50px;
     border-radius: 100%;
-    cursor: pointer;
 }

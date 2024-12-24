@@ -1,0 +1,236 @@
+.education-page {
+    height: 100vh;
+}
+
+.educations-title {
+    padding-top: 12vh;
+    width: 100vw;
+    height: 25vh;
+    text-align: center;
+    font-size: 48px;
+    user-select: none;
+}
+
+.quarter-border-educ {
+    height: 2px;
+    width: 40%;
+    background-color: #3f3f3f;
+    justify-self: center;
+}
+
+.education-timeline {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    margin-top: 40px;
+    height: 40vh;
+    width: 50vw;
+    justify-self: center;
+    /* background-color: darkred; */
+}
+
+.education-date {
+    width: 10vw;
+    height: 25px;
+    font-size: 18px;
+    text-align: right;
+    /* background-color: orange; */
+}
+
+.education-center-thin{
+    width: 10vw;
+    height: 25px;
+    /* background-color: yellow; */
+}
+
+.education-dot {
+    background-color: #20422b;
+    width: 15px;
+    height: 15px;
+    justify-self: center;
+    margin-top: 5px;
+    border-radius: 100%;
+}
+
+.education-title {
+    width: 30vw;
+    height: 25px;
+    text-align: left;
+    font-size: 18px;
+    /* background-color: green; */
+}
+
+.education-role {
+    width: 10vw;
+    /* background-color: darkgray; */
+    text-align: right;
+    font-size: 14px;
+    color: #bbbbbb;
+}
+
+.education-center-thick {
+    width: 10vw;
+    /* background-color: aqua; */
+}
+
+.education-line {
+    width: 3px;
+    margin-top: -5px;
+    background-color: #20422b;
+    justify-self: center;
+}
+
+.education-desc {
+    width: 30vw;
+    text-align: left;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.educ1 {
+    height: 100px;
+}
+
+.educ2 {
+    height: 80px;
+}
+
+li {
+    color: #bbbbbb;
+    margin-top: 10px;
+    list-style-type: disc;
+}
+
+@keyframes fade-in-right-educ{
+    70% {
+        opacity: 0;
+        margin-left: 100px;
+    }
+    90% {
+        opacity: 1;
+        margin-left: 0px;
+    }
+}
+
+@keyframes fade-in-left-educ{
+    70% {
+        opacity: 0; 
+        margin-left: -100vw;
+    }
+    90% {
+        opacity: 1;
+        margin-left: 0px;
+    }
+}
+
+@keyframes fade-in-e1{
+    80% {
+        opacity: 0; 
+    }
+    95% {
+        opacity: 1;
+    }
+}
+
+@keyframes fade-in-e2{
+    80% {
+        opacity: 0; 
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    @supports (animation-timeline: scroll()) {
+      .educations-title {
+        animation: fade-in-right-educ linear both;
+        animation-timeline: scroll();
+      }
+      .quarter-border-educ {
+        animation: fade-in-left-educ linear both;
+        animation-timeline: scroll();
+    }
+    .e1-anim {
+        animation: fade-in-e1 linear both;
+        animation-timeline: scroll();
+    }
+    .e2-anim {
+        animation: fade-in-e2 linear both;
+        animation-timeline: scroll();
+    }
+  }
+}
+
+.resume {
+    height: 10vh;
+    width: 50vw;
+    /* background-color: red; */
+    text-align: center;
+    justify-self: center;
+    display: grid;
+    user-select: none;
+}
+
+.resume-download-btn {
+    margin-top: 10px;
+    background-color: #20422b;
+    width: 35%;
+    border-radius: 2em;
+    justify-self: center;
+    justify-items: center;
+    display: flex;
+    align-items: center;
+}
+
+.download-txt {
+    width: 200px;
+    justify-self: left;
+    text-align: left;
+    /* background-color: red; */
+}
+
+.download-icon {
+    margin: 10px;
+    margin-right: 25px;
+    margin-left: 25px;
+    height: 25px;
+    width: auto;
+    /* background-color: red; */
+}
+
+.scroll-to-top {
+    position: absolute;
+    width: 100vw;
+    height: 50px;
+    top: 490vh;
+    display: flex;
+    user-select: none;
+}
+
+.scroll-btn {
+    width: 90%;
+    text-align: center;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    border-radius: 3em;
+    border: 2px solid #282828;
+    display: flex;
+}
+
+.scroll-txt {
+    align-self: center;
+    align-content: center;
+    height: 40px;
+    width: 200px;
+    margin-left: 25px;
+    text-align: left;
+}
+
+.scroll-icon {
+    align-self: center;
+    height: 30px;
+    margin-left: 40%;
+}
