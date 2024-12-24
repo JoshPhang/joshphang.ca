@@ -27,7 +27,7 @@ export default function Projects() {
                     <ul>
                         <li>Organized and lead both the front-end and back-end teams to develop a full-stack recipe suggestion web application, using Agile development methods for efficient communication and development.</li>
                         <li>Created a secure and scalable database using Microsoft SQL Server, accessed by a custom minimal API developed using ASP.NET Core</li>
-                        <li>Developed a sleek UI utilizing Angular's components for modularity and simplicity.</li>
+                        <li>Developed a sleek UI utilizing Angular&apos;s components for modularity and simplicity.</li>
                         <li>Project available at <a href="https://github.com/JoshPhang/TasteBuds" className="weblink" target="_blank" rel="noopener noreferrer">https://github.com/JoshPhang/TasteBuds</a></li>
                     </ul>
                 </div>

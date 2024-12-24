@@ -1,31 +1,32 @@
 import "../Styles/navbar.css"
+import Link from 'next/link'
 
 export default function Navbar() {
     return (
       <div className="navbar">
-        <a href="/" className="logo navbar-logo">
+        <Link href="/#home" className="logo navbar-logo">
           <img src="../favicon.ico" className="clickable"/>
-        </a>
+        </Link>
         <div className="navbar-item">
-          <a className="navbar-text clickable" href="/#home">Home</a>
+          <Link className="navbar-text clickable" href="/#home">Home</Link>
         </div>
         <div className="navbar-item">
-          <a className="navbar-text clickable" href="/#about">About</a>
+          <Link className="navbar-text clickable" href="/#about">About</Link>
         </div>
         <div className="navbar-item">
-          <a className="navbar-text clickable" href="/#projects">Projects</a>
+          <Link className="navbar-text clickable" href="/#projects">Projects</Link>
         </div>
         <div className="navbar-item">
-          <a className="navbar-text clickable" href="/#education">Education</a>
+          <Link className="navbar-text clickable" href="/#education">Education</Link>
         </div>
 
         <div className="navbar-item right">
-          <a className="navbar-resume-download-btn" href="/assets/Josh Phang's Resume.pdf" download="Josh Phang's Resume.pdf">
+          <Link className="navbar-resume-download-btn" href="/assets/Josh Phang's Resume.pdf" download="Josh Phang's Resume.pdf" target="_blank" rel="noopener noreferrer">
               <img src="/assets/download-drk.png" className="download-icon" />
               <div className="download-txt">
-                  Josh Phang's Resume
+                  Josh Phang&apos;s Resume
               </div>
-            </a>
+            </Link>
         </div>
       </div>
     );

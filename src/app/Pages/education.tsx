@@ -1,4 +1,5 @@
 import "../Styles/education.css"
+import Link from 'next/link'
 
 export default function Education() {
     return (
@@ -49,19 +50,19 @@ export default function Education() {
 
             <div className="resume">
                 Need more? Check out my resume here!
-                <a className="resume-download-btn" href="/assets/Josh Phang's Resume.pdf" download="Josh Phang's Resume.pdf">
+                <Link className="resume-download-btn" href="/assets/Josh Phang's Resume.pdf" download="Josh Phang's Resume.pdf" target="_blank" rel="noopener noreferrer">
                     <img src="/assets/download.png" className="download-icon" />
                     <div className="download-txt">
-                        Josh Phang's Resume
+                        Josh Phang&apos;s Resume
                     </div>
-                </a>
+                </Link>
             </div>
 
             <div className="scroll-to-top">
-                <a href="/#home" className="scroll-btn">
+                <Link href="/#home" className="scroll-btn">
                     <img src="/assets/arrow.png" className="scroll-icon" />
                     <div className="scroll-txt">Scroll to Top</div>
-                </a>
+                </Link>
             </div>
         </div>
     )

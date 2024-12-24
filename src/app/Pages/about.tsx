@@ -1,4 +1,5 @@
 import "../Styles/about.css"
+import Link from 'next/link'
 
 export default function About() {
   return (
@@ -22,21 +23,21 @@ export default function About() {
           <div className="desc-text">Vancouver, BC</div>
           <div className="spacer"></div>
           <div className="desc-links">
-            <a href="https://linkedin.com/in/joshphang" target="_blank" rel="noopener noreferrer" className="img-click">
-              <img src="/assets/linkedin.jpg" alt="linkedin.com/in/joshphang" className="logo-link"/>
-            </a>
-            <a href="https://github.com/joshphang" target="_blank" rel="noopener noreferrer" className="img-click">
+            <Link href="https://linkedin.com/in/joshphang/" target="_blank" rel="noopener noreferrer" className="img-click">
+              <img src="/assets/linkedin.jpg" alt="linkedin.com/in/joshphang/" className="logo-link"/>
+            </Link>
+            <Link href="https://github.com/joshphang" target="_blank" rel="noopener noreferrer" className="img-click">
               <img src="/assets/github.jpg" alt="github.com/joshphang" className="logo-link" />
-            </a>
+            </Link>
           </div>
         </div>
       </div>
       <div className="about-box">
         <div className="about-text">
-          <div className="about-title">Hello! I'm Josh</div>
+          <div className="about-title">Hello! I&apos;m Josh</div>
           <div className="spacer"></div>
           <div className="about-content">
-            I am an undergraduate student currently studying at the University of Northern British Columbia, graduating with a bachelor's degree in Computer Science in May 2025.
+            I am an undergraduate student currently studying at the University of Northern British Columbia, graduating with a bachelor&apos;s degree in Computer Science in May 2025.
             <br />
             <br />
             I am currently searching for new and exciting career opportunities in software development!
