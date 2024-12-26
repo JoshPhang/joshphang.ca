@@ -18,6 +18,7 @@ export default function Projects() {
                 <div className="project-role proj1 p1-anim">
                     Project Lead
                     <br />
+                    <br />
                     Full-Stack Development
                 </div>
                 <div className="project-center-thick proj1 p1-anim">
@@ -28,7 +29,7 @@ export default function Projects() {
                         <li>Organized and led both the front-end and back-end teams to develop a full-stack recipe suggestion web application, using Agile development methods for efficient communication and development.</li>
                         <li>Created a secure and scalable database using Microsoft SQL Server, accessed by a custom minimal API developed using ASP.NET Core</li>
                         <li>Developed a sleek UI utilizing Angular&apos;s components for modularity and simplicity.</li>
-                        <li>Project available at <a href="https://github.com/JoshPhang/TasteBuds" className="weblink" target="_blank" rel="noopener noreferrer">https://github.com/JoshPhang/TasteBuds</a></li>
+                        <li>Project&apos;s GitHub available upon request.</li>
                     </ul>
                 </div>
 

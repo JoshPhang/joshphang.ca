@@ -1,4 +1,204 @@
 .projects-page {
+    height: 325vh;
+    width: 100vw;
+    background-color: #121212;
+    border-bottom: 2px solid #3f3f3f;
+    overflow-y: hidden;
+}
+
+.projects-title {
+    padding-top: 12vh;
+    width: 100vw;
+    height: 25vh;
+    text-align: center;
+    font-size: 48px;
+    user-select: none;
+}
+
+.quarter-border {
+    height: 2px;
+    width: 40%;
+    background-color: #3f3f3f;
+    justify-self: center;
+}
+
+.project-timeline {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    margin-top: 40px;
+    height: 70vh;
+    width: 100vw;
+    justify-self: center;
+    /* background-color: darkred; */
+}
+
+.project-date {
+    width: 30%;
+    height: 50px;
+    font-size: 18px;
+    text-align: right;
+    /* background-color: orange; */
+}
+
+.project-center-thin{
+    width: 10%;
+    height: 25px;
+    /* background-color: yellow; */
+}
+
+.project-dot {
+    background-color: #20422b;
+    width: 15px;
+    height: 15px;
+    justify-self: center;
+    margin-top: 5px;
+    border-radius: 100%;
+}
+
+.project-title {
+    width: 60%;
+    height: 25px;
+    text-align: left;
+    font-size: 18px;
+    /* background-color: green; */
+}
+
+.project-role {
+    width: 30%;
+    /* background-color: darkgray; */
+    text-align: right;
+    font-size: 14px;
+    color: #bbbbbb;
+    padding-top: 20px;
+}
+
+.project-center-thick {
+    width: 10%;
+    /* background-color: aqua; */
+}
+
+.project-line {
+    width: 3px;
+    margin-top: -30px;
+    background-color: #20422b;
+    justify-self: center;
+}
+
+.project-desc {
+    width: 60%;
+    padding-right: 10px;
+    text-align: left;
+    font-size: 14px;
+}
+
+.proj1 {
+    height: 450px;
+}
+
+.proj2 {
+    height: 700px;
+}
+
+.proj3 {
+    height: 800px;
+}
+
+.project-title.p2-anim {
+    height: 100px;
+}
+
+.project-line.proj2 {
+    margin-top: -80px;
+}
+
+li {
+    color: #bbbbbb;
+    margin-top: 10px;
+    list-style-type: disc;
+}
+
+.weblink {
+    text-decoration: underline;
+}
+
+@keyframes fade-in-right-p3{
+    20% {
+        opacity: 0;
+        margin-left: -100px;
+    }
+    38% {
+        opacity: 1;
+        margin-left: 0px;
+    }
+}
+
+@keyframes fade-in-left-p3{
+    20% {
+        opacity: 0; 
+        margin-left: 100vw;
+    }
+    38% {
+        opacity: 1;
+        margin-left: 0px;
+    }
+}
+
+@keyframes fade-in-p3-proj1{
+    30% {
+        opacity: 0;
+    }
+    40% {
+        opacity: 1;
+    }
+}
+
+@keyframes fade-in-p3-proj2{
+    40% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+}
+
+@keyframes fade-in-p3-proj3{
+    60% {
+        opacity: 0;
+    }
+    75% {
+        opacity: 1;
+    }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    @supports (animation-timeline: scroll()) {
+      .projects-title {
+        animation: fade-in-right-p3 linear both;
+        animation-timeline: scroll(root);
+      }
+      .quarter-border {
+        animation: fade-in-left-p3 linear both;
+        animation-timeline: scroll(root);
+      }
+      .p1-anim {
+        animation: fade-in-p3-proj1 linear both;
+        animation-timeline: scroll(root);
+      }
+      .p2-anim {
+          animation: fade-in-p3-proj2 linear both;
+        animation-timeline: scroll(root);
+    }
+      .p3-anim {
+          animation: fade-in-p3-proj3 linear both;
+        animation-timeline: scroll(root);
+    }
+    }
+  }
+
+/* For Desktop */
+@media only screen and (min-width: 768px) {
+.projects-page {
     height: 200vh;
     width: 100vw;
     background-color: #121212;
@@ -61,6 +261,14 @@
     text-align: left;
     font-size: 18px;
     /* background-color: green; */
+}
+
+.project-title.p2-anim{
+    height: 25px;
+}
+
+.project-line.proj2 {
+    margin-top: -5px;
 }
 
 .project-role {
@@ -160,28 +368,4 @@ li {
         opacity: 1;
     }
 }
-
-@media (prefers-reduced-motion: no-preference) {
-    @supports (animation-timeline: scroll()) {
-      .projects-title {
-        animation: fade-in-right-p3 linear both;
-        animation-timeline: scroll();
-      }
-      .quarter-border {
-        animation: fade-in-left-p3 linear both;
-        animation-timeline: scroll();
-      }
-      .p1-anim {
-        animation: fade-in-p3-proj1 linear both;
-        animation-timeline: scroll();
-      }
-      .p2-anim {
-        animation: fade-in-p3-proj2 linear both;
-        animation-timeline: scroll();
-      }
-      .p3-anim {
-        animation: fade-in-p3-proj3 linear both;
-        animation-timeline: scroll();
-      }
-    }
-  }
+}

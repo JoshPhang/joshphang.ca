@@ -1,5 +1,91 @@
 .main-page {
     height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    align-items: center;
+    cursor: default;
+    user-select: none;
+}
+
+.label {
+    margin-top: 10vh;
+    height: 40vh;
+    width: 100%;
+    /* background-color: red; */
+}
+
+.my-name {
+    height: 18vh;
+    width: 80%;
+    margin-left: 10%;
+    font-size: 48px;
+    padding-top: 5vh;
+    opacity: 0;
+    text-align: center;
+    color: #ffffff;
+    animation: 3s fade-in-main;
+    animation-fill-mode: forwards;
+    border-bottom: 2px solid #bbbbbb;
+    overflow-x: hidden;
+}
+
+.uni {
+    color: #bbbbbb;
+    width: 80%;
+    margin-left: 10%;
+    font-size: 24px;
+    text-align: left;
+    padding-top: 20px;
+    opacity: 0;
+    animation: 3s fade-in-main;
+    animation-fill-mode: forwards;
+    animation-delay: 1.5s;
+    overflow-x: hidden;
+}
+
+.role {
+    color: #bbbbbb;
+    width: 80%;
+    font-size: 18px;
+    text-align: left;
+    padding-left: 100px;
+    opacity: 0;
+    animation: 3s fade-in-main;
+    animation-fill-mode: forwards;
+    animation-delay: 1.5s;
+}
+
+.picture {
+    position: relative;
+    width: 60vw;
+    margin-left: 20vw;
+    margin-bottom: 10vh;
+    opacity: 0;
+    animation: 3s fade-in-main;
+    animation-fill-mode: forwards;
+}
+
+.pfp {
+    border-radius: 100%;
+}
+
+@keyframes fade-in-main {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+/* For Desktop */
+@media only screen and (min-width: 768px) {
+.main-page {
+    height: 100vh;
     display: flex;
     overflow-x: hidden;
     align-items: center;
@@ -12,6 +98,7 @@
     width: 800px;
     margin-left: 10vw;
     overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 .my-name {
@@ -25,6 +112,7 @@
     animation: 3s fade-in-main;
     animation-fill-mode: forwards;
     border-bottom: 2px solid #bbbbbb;
+    overflow-y: hidden;
 }
 
 .uni {
@@ -51,12 +139,15 @@
 }
 
 .picture {
+    position: relative;
     height: 350px;
     width: 350px;
     margin-top: 50px;
     opacity: 0;
     animation: 3s fade-in-main;
     animation-fill-mode: forwards;
+    margin-left: 0;
+    margin-bottom: 0;
 }
 
 .pfp {
@@ -70,4 +161,5 @@
     100% {
         opacity: 1;
     }
+}
 }
