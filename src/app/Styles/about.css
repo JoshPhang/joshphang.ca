@@ -2,7 +2,7 @@
     font-family: roboto-regular;
     src: url('../Fonts/Roboto-Regular.ttf');
 } 
-
+/* 
 @media (prefers-reduced-motion: no-preference) {
     @supports (animation-timeline: scroll()) {
       .picture-popout {
@@ -22,7 +22,7 @@
         animation-timeline: scroll(root);
       }
     }
-  }
+  } */
 
 .background {
     display: flex;

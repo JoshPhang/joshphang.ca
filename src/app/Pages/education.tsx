@@ -28,7 +28,7 @@ export default function Education() {
                     </ul>
                 </div>
 
-                {/* Second education: RCS */}
+                {/* Second education: RCS
                 <div className="education-date e2-anim">09/2014 - 06/2018</div>
                 <div className="education-center-thin e2-anim">
                     <div className="education-dot"></div>
@@ -45,7 +45,7 @@ export default function Education() {
                     <ul>
                         <li>High School Diploma</li>
                     </ul>
-                </div>
+                </div> */}
             </div>
 
             <div className="resume">
