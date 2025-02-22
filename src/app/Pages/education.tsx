@@ -27,25 +27,6 @@ export default function Education() {
                         <li>Mathematics Minor</li>
                     </ul>
                 </div>
-
-                {/* Second education: RCS
-                <div className="education-date e2-anim">09/2014 - 06/2018</div>
-                <div className="education-center-thin e2-anim">
-                    <div className="education-dot"></div>
-                </div>
-                <div className="education-title e2-anim">
-                    Richmond Christian Secondary School
-                </div>
-
-                <div className="education-role"></div>
-                <div className="education-center-thick educ2 e2-anim">
-                    <div className="education-line educ2"></div>
-                </div>
-                <div className="education-desc educ2 e2-anim">
-                    <ul>
-                        <li>High School Diploma</li>
-                    </ul>
-                </div> */}
             </div>
 
             <div className="resume">
@@ -60,8 +41,10 @@ export default function Education() {
 
             <div className="scroll-to-top">
                 <Link href="/#home" className="scroll-btn">
+                <div className="scroll-box">
                     <img src="/assets/arrow.png" className="scroll-icon" />
                     <div className="scroll-txt">Scroll to Top</div>
+                </div>
                 </Link>
             </div>
         </div>

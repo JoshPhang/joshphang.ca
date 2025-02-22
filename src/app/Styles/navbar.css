@@ -24,6 +24,11 @@
     align-self: center;
     margin-left: 2%;
     margin-right: 5%;
+    transform: all 0.4s ease;
+}
+
+.navbar-logo:hover {
+    transform: scale(1.1);
 }
 
 .navbar-text {
@@ -37,11 +42,16 @@
     font-size: 12px;
     margin-top: 10%;
     margin-left: 5%;
+    transition: all 0.4s ease;
+}
+
+.navbar-text:hover {
+    color: #ffffff;
+    transform: scale(1.1);
 }
 
 .clickable:hover {
     cursor: pointer;
-    color: #ffffff;
 }
 
 .navbar-resume-download-btn {
@@ -55,6 +65,12 @@
     font-size: 14px;
     text-align: center;
     align-items: center;
+    transition: all 0.4s ease;
+}
+
+.navbar-resume-download-btn:hover {
+    background-color: #8b8b8b;
+    transform: scale(1.1);
 }
 
 .right {

@@ -7,13 +7,8 @@ export default function Main() {
           <div className="my-name">
             Josh Phang
           </div>
-          <div className="uni">
-            University of Northern British Columbia
-          </div>
           <div className="role">
-            BSc Computer Science
-            <br></br>
-            Minor in Mathematics
+            Full-Stack Software Developer
           </div>
         </div>
         <div className="picture">

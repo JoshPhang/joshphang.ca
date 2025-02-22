@@ -2,7 +2,9 @@ import "../Styles/about.css"
 import Link from 'next/link'
 
 export default function About() {
+
   return (
+    <>
     <div className="background" id="about">
       <div className="blank-space"></div>
       <div className="profile-popout">
@@ -45,5 +47,6 @@ export default function About() {
         </div>
       </div>
     </div>
+    </>
   );
 }

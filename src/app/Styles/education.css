@@ -406,6 +406,11 @@ li {
     justify-items: center;
     display: flex;
     align-items: center;
+    transition: all 0.4s ease;
+}
+
+.resume-download-btn:hover {
+    transform: scale(1.1);
 }
 
 .download-txt {
@@ -441,20 +446,30 @@ li {
     border-radius: 3em;
     border: 2px solid #282828;
     display: flex;
+    transition: all 0.4s ease;
+    justify-content: center;
+}
+
+.scroll-btn:hover {
+    transform: scale(1.1);
+}
+
+.scroll-box {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .scroll-txt {
-    align-self: center;
-    align-content: center;
-    height: 40px;
-    width: 200px;
-    margin-left: 25px;
+    height: 100%;
+    width: auto;
     text-align: left;
+    margin-right: auto;
 }
 
 .scroll-icon {
-    align-self: center;
-    height: 30px;
-    margin-left: 40%;
+    height: 50%;
+    margin-left: auto;
 }
 }

@@ -16,10 +16,10 @@ export default function Projects() {
                 <div className="project-title p1-anim">TasteBuds</div>
 
                 <div className="project-role proj1 p1-anim">
-                    Project Lead
-                    <br />
-                    <br />
                     Full-Stack Development
+                    <br />
+                    <br />
+                    Project Lead
                 </div>
                 <div className="project-center-thick proj1 p1-anim">
                     <div className="project-line proj1"></div>
@@ -41,7 +41,7 @@ export default function Projects() {
                 <div className="project-title p2-anim">Credit Card Fraud Detection using Machine Learning</div>
 
                 <div className="project-role proj2 p2-anim">
-                    Research Paper
+                    Machine Learning Research Paper
                 </div>
                 <div className="project-center-thick proj2 p2-anim">
                     <div className="project-line proj2"></div>
