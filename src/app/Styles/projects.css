@@ -17,7 +17,7 @@
 
 .quarter-border {
     height: 2px;
-    width: 40%;
+    width: 50vw;
     background-color: #3f3f3f;
     justify-self: center;
 }
@@ -123,29 +123,29 @@ li {
 }
 
 @keyframes fade-in-right-p3{
-    20% {
+    10% {
         opacity: 0;
         margin-left: -100px;
     }
-    38% {
+    30% {
         opacity: 1;
         margin-left: 0px;
     }
 }
 
 @keyframes fade-in-left-p3{
-    20% {
+    10% {
         opacity: 0; 
         margin-left: 100vw;
     }
-    38% {
+    30% {
         opacity: 1;
-        margin-left: 0px;
+        margin-left: 25vw;
     }
 }
 
 @keyframes fade-in-p3-proj1{
-    30% {
+    15% {
         opacity: 0;
     }
     40% {
@@ -154,19 +154,19 @@ li {
 }
 
 @keyframes fade-in-p3-proj2{
-    40% {
+    25% {
         opacity: 0;
     }
-    50% {
+    55% {
         opacity: 1;
     }
 }
 
 @keyframes fade-in-p3-proj3{
-    60% {
+    35% {
         opacity: 0;
     }
-    75% {
+    80% {
         opacity: 1;
     }
 }

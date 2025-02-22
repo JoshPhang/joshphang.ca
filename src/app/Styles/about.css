@@ -28,14 +28,14 @@
     display: flex;
     flex-wrap: wrap;
     background-color: #3f3f3f;
-    height: 100vh;
+    height: 50vh;
     overflow-y: hidden;
     overflow-x: hidden;
 }
 
 .blank-space {
     background-color: #20422b;
-    height: 40vh;
+    height: 30vh;
     width: 100vw;
 }
 
@@ -43,14 +43,14 @@
     display: flex;
     height: 30vh;
     width: 90vw;
-    opacity: 0;
+    opacity: 1;
     margin-left: 5vw;
-    margin-top: -25vh;
+    margin-top: -15vh;
 }
 
 .picture-popout {
     height: 100%;
-    opacity: 0;
+    opacity: 1;
     font-family: robot-regular;
     user-select: none;
 }
@@ -59,7 +59,7 @@
     width:50%;
     padding: 5px;
     text-align: center;
-    opacity: 0;
+    opacity: 1;
     background-color: #c0d3c7;
     color: #3f3f3f;
 }

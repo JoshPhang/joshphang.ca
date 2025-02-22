@@ -38,7 +38,7 @@
 
 .quarter-border-educ {
     height: 2px;
-    width: 40%;
+    width: 50vw;
     background-color: #3f3f3f;
     justify-self: center;
 }
@@ -131,7 +131,7 @@ li {
         opacity: 0;
         margin-left: 100px;
     }
-    95% {
+    100% {
         opacity: 1;
         margin-left: 0px;
     }
@@ -142,9 +142,9 @@ li {
         opacity: 0; 
         margin-left: -100vw;
     }
-    95% {
+    100% {
         opacity: 1;
-        margin-left: 0px;
+        margin-left: 25vw;
     }
 }
 
