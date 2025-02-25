@@ -38,7 +38,7 @@
 
 .quarter-border-educ {
     height: 2px;
-    width: 50vw;
+    width: 40%;
     background-color: #3f3f3f;
     justify-self: center;
 }
@@ -144,7 +144,7 @@ li {
     }
     100% {
         opacity: 1;
-        margin-left: 25vw;
+        margin-left: 0;
     }
 }
 
@@ -184,7 +184,7 @@ li {
     width: 60%;
     border-radius: 2em;
     justify-self: center;
-    justify-items: center;
+    justify-content: center;
     display: flex;
     align-items: center;
 }
@@ -212,37 +212,41 @@ li {
     display: flex;
     user-select: none;
     margin-top: 10vh;
+    justify-content: center;
 }
 
 .scroll-btn {
-    width: 90%;
-    text-align: center;
-    align-content: center;
-    margin-left: auto;
-    margin-right: auto;
+    display: flex;
+    width: 100%;
     background-color: black;
     border-radius: 3em;
     border: 2px solid #282828;
+    justify-content: center;
+}
+
+.scroll-box {
     display: flex;
+    justify-content: center;
+    width: 200px;
 }
 
 .scroll-txt {
-    align-self: center;
+    height: 100%;
+    width: 90%;
+    margin-left: 10px;
     align-content: center;
-    height: 40px;
-    width: 200px;
-    margin-left: 25px;
     text-align: left;
+    /* background-color: red; */
 }
 
 .scroll-icon {
     align-self: center;
-    height: 30px;
-    margin-left: 25%;
+    height: 50%;
+    /* background-color: orange; */
 }
 
 /* For Desktop */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1000px) {
 .education-page {
     height: 100vh;
 }

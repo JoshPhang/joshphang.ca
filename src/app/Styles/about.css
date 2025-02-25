@@ -42,9 +42,9 @@
 .profile-popout {
     display: flex;
     height: 30vh;
-    width: 90vw;
+    width: 100%;
     opacity: 1;
-    margin-left: 5vw;
+    justify-content: center;
     margin-top: -15vh;
 }
 
@@ -192,14 +192,14 @@
 
 .img-click {
     margin: 20px;
-    margin-top: 0;
+    margin-top: -5vh;
     width: 25px;
     height: 25px;
     border-radius: 100%;
 }
 
 /* For Desktop */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1000px) {
 .background {
     display: flex;
     background-color: #3f3f3f;

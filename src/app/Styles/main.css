@@ -47,9 +47,10 @@
 }
 
 .picture {
+    display: flex;
     position: relative;
-    width: 60vw;
-    margin-left: 20vw;
+    width: 100%;
+    justify-content: center;
     bottom: 15vh;
     opacity: 0;
     animation: 3s fade-in-main;
@@ -57,6 +58,7 @@
 }
 
 .pfp {
+    width: 30vw;
     border-radius: 100%;
 }
 
@@ -71,7 +73,7 @@
 
 
 /* For Desktop */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1000px) {
 .main-page {
     height: 100vh;
     display: flex;
