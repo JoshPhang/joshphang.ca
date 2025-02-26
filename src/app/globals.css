@@ -37,3 +37,15 @@ body {
   overflow-x: hidden;
   scroll-behavior: smooth;
 }
+
+.spotlight {
+  position: absolute;
+  top: -300px;
+  width: 400px;
+  height: 400px;
+  border-radius: 100%;
+  background-color: rgba(255, 255, 255, 0.05);
+  filter: blur(40px);
+  transition: all 0.2s ease;
+  z-index: 0;
+}
