@@ -1,11 +1,11 @@
 {
-  "homepage": "https://joshphang.github.io",
+  "homepage": "https://joshphang.github.io/",
   "name": "joshphang.ca",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -b main -d build",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
