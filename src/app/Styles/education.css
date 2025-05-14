@@ -1,273 +1,273 @@
 @media (prefers-reduced-motion: no-preference) {
-    @supports (animation-timeline: scroll()) {
-      .educations-title {
-        animation: fade-in-right-educ linear both;
-        animation-timeline: scroll(root);
-      }
-      .quarter-border-educ {
-        animation: fade-in-left-educ linear both;
-        animation-timeline: scroll(root);
+  @supports (animation-timeline: scroll()) {
+    .educations-title {
+      animation: fade-in-right-educ linear both;
+      animation-timeline: scroll(root);
+    }
+    .quarter-border-educ {
+      animation: fade-in-left-educ linear both;
+      animation-timeline: scroll(root);
     }
     .e1-anim {
-        animation: fade-in-e1 linear both;
-        animation-timeline: scroll(root);
+      animation: fade-in-e1 linear both;
+      animation-timeline: scroll(root);
     }
     .e2-anim {
-        animation: fade-in-e2 linear both;
-        animation-timeline: scroll(root);
+      animation: fade-in-e2 linear both;
+      animation-timeline: scroll(root);
     }
   }
 }
 
 .education-page {
-    height: 100vh;
-    width: 100vw;
-    background-color: #121212;
-    overflow-y: hidden;
-    overflow-x: hidden;
+  height: 100vh;
+  width: 100vw;
+  background-color: #121212;
+  overflow-y: hidden;
+  overflow-x: hidden;
 }
 
 .educations-title {
-    padding-top: 12vh;
-    width: 100vw;
-    height: 25vh;
-    text-align: center;
-    font-size: 48px;
-    user-select: none;
+  padding-top: 12vh;
+  width: 100vw;
+  height: 25vh;
+  text-align: center;
+  font-size: 48px;
+  user-select: none;
 }
 
 .quarter-border-educ {
-    height: 2px;
-    width: 40%;
-    background-color: #3f3f3f;
-    justify-self: center;
+  height: 2px;
+  width: 40%;
+  background-color: #3f3f3f;
+  justify-self: center;
 }
 
 .education-timeline {
-    display: flex;
-    flex-wrap: wrap;
-    align-content: flex-start;
-    margin-top: 40px;
-    height: 40vh;
-    width: 100vw;
-    justify-self: center;
-    /* background-color: darkred; */
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  margin-top: 40px;
+  height: 40vh;
+  width: 100vw;
+  justify-self: center;
+  /* background-color: darkred; */
 }
 
 .education-date {
-    width: 30%;
-    height: 50px;
-    font-size: 18px;
-    text-align: right;
-    /* background-color: orange; */
+  width: 30%;
+  height: 50px;
+  font-size: 18px;
+  text-align: right;
+  /* background-color: orange; */
 }
 
-.education-center-thin{
-    width: 10%;
-    height: 25px;
-    /* background-color: yellow; */
+.education-center-thin {
+  width: 10%;
+  height: 25px;
+  /* background-color: yellow; */
 }
 
 .education-dot {
-    background-color: #20422b;
-    width: 15px;
-    height: 15px;
-    justify-self: center;
-    margin-top: 5px;
-    border-radius: 100%;
+  background-color: #20422b;
+  width: 15px;
+  height: 15px;
+  justify-self: center;
+  margin-top: 5px;
+  border-radius: 100%;
 }
 
 .education-title {
-    width: 60%;
-    height: 25px;
-    text-align: left;
-    font-size: 18px;
-    /* background-color: green; */
+  width: 60%;
+  height: 25px;
+  text-align: left;
+  font-size: 18px;
+  /* background-color: green; */
 }
 
 .education-role {
-    width: 30%;
-    /* background-color: darkgray; */
-    text-align: right;
-    font-size: 14px;
-    color: #bbbbbb;
-    padding-top: 20px;
+  width: 30%;
+  /* background-color: darkgray; */
+  text-align: right;
+  font-size: 14px;
+  color: #bbbbbb;
+  padding-top: 20px;
 }
 
 .education-center-thick {
-    width: 10%;
-    /* background-color: aqua; */
+  width: 10%;
+  /* background-color: aqua; */
 }
 
 .education-line {
-    width: 3px;
-    margin-top: -30px;
-    background-color: #20422b;
-    justify-self: center;
+  width: 3px;
+  margin-top: -30px;
+  background-color: #20422b;
+  justify-self: center;
 }
 
 .education-desc {
-    width: 60%;
-    text-align: left;
-    font-size: 14px;
+  width: 60%;
+  text-align: left;
+  font-size: 14px;
 }
 
 .educ1 {
-    height: 100px;
+  height: 100px;
 }
 
 .educ2 {
-    height: 80px;
+  height: 80px;
 }
 
 li {
-    color: #bbbbbb;
-    margin-top: 10px;
-    list-style-type: disc;
+  color: #bbbbbb;
+  margin-top: 10px;
+  list-style-type: disc;
 }
 
-@keyframes fade-in-right-educ{
-    80% {
-        opacity: 0;
-        margin-left: 100px;
-    }
-    100% {
-        opacity: 1;
-        margin-left: 0px;
-    }
+@keyframes fade-in-right-educ {
+  80% {
+    opacity: 0;
+    margin-left: 100px;
+  }
+  100% {
+    opacity: 1;
+    margin-left: 0px;
+  }
 }
 
-@keyframes fade-in-left-educ{
-    80% {
-        opacity: 0; 
-        margin-left: -100vw;
-    }
-    100% {
-        opacity: 1;
-        margin-left: 0;
-    }
+@keyframes fade-in-left-educ {
+  80% {
+    opacity: 0;
+    margin-left: -100vw;
+  }
+  100% {
+    opacity: 1;
+    margin-left: 0;
+  }
 }
 
-@keyframes fade-in-e1{
-    85% {
-        opacity: 0; 
-    }
-    95% {
-        opacity: 1;
-    }
+@keyframes fade-in-e1 {
+  85% {
+    opacity: 0;
+  }
+  95% {
+    opacity: 1;
+  }
 }
 
-@keyframes fade-in-e2{
-    90% {
-        opacity: 0; 
-    }
-    100% {
-        opacity: 1;
-    }
+@keyframes fade-in-e2 {
+  90% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
-
 
 .resume {
-    height: 10vh;
-    width: 90vw;
-    overflow-wrap: normal;
-    /* background-color: red; */
-    text-align: center;
-    justify-self: center;
-    display: grid;
-    user-select: none;
+  height: 10vh;
+  width: 90vw;
+  overflow-wrap: normal;
+  /* background-color: red; */
+  text-align: center;
+  justify-self: center;
+  display: grid;
+  user-select: none;
 }
 
 .resume-download-btn {
-    margin-top: 10px;
-    background-color: #20422b;
-    width: 60%;
-    border-radius: 2em;
-    justify-self: center;
-    justify-content: center;
-    display: flex;
-    align-items: center;
+  margin-top: 10px;
+  background-color: #20422b;
+  width: 60%;
+  border-radius: 2em;
+  justify-self: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  z-index: 10;
 }
 
 .download-txt {
-    width: 200px;
-    justify-self: left;
-    text-align: left;
-    /* background-color: red; */
+  width: 200px;
+  justify-self: left;
+  text-align: left;
+  /* background-color: red; */
 }
 
 .download-icon {
-    margin: 10px;
-    margin-right: 25px;
-    margin-left: 25px;
-    height: 25px;
-    width: auto;
-    /* background-color: red; */
+  margin: 10px;
+  margin-right: 25px;
+  margin-left: 25px;
+  height: 25px;
+  width: auto;
+  /* background-color: red; */
 }
 
 .scroll-to-top {
-    position: relative;
-    width: 100vw;
-    height: 50px;
-    display: flex;
-    user-select: none;
-    margin-top: 10vh;
-    justify-content: center;
+  position: relative;
+  width: 100vw;
+  height: 50px;
+  display: flex;
+  user-select: none;
+  margin-top: 10vh;
+  justify-content: center;
 }
 
 .scroll-btn {
-    display: flex;
-    width: 100%;
-    background-color: black;
-    border-radius: 3em;
-    border: 2px solid #282828;
-    justify-content: center;
+  display: flex;
+  width: 100%;
+  background-color: black;
+  border-radius: 3em;
+  border: 2px solid #282828;
+  justify-content: center;
 }
 
 .scroll-box {
-    display: flex;
-    justify-content: center;
-    width: 200px;
+  display: flex;
+  justify-content: center;
+  width: 200px;
 }
 
 .scroll-txt {
-    height: 100%;
-    width: 90%;
-    margin-left: 10px;
-    align-content: center;
-    text-align: left;
-    /* background-color: red; */
+  height: 100%;
+  width: 90%;
+  margin-left: 10px;
+  align-content: center;
+  text-align: left;
+  /* background-color: red; */
 }
 
 .scroll-icon {
-    align-self: center;
-    height: 50%;
-    /* background-color: orange; */
+  align-self: center;
+  height: 50%;
+  /* background-color: orange; */
 }
 
 /* For Desktop */
 @media only screen and (min-width: 1000px) {
-.education-page {
+  .education-page {
     height: 100vh;
-}
+  }
 
-.educations-title {
+  .educations-title {
     padding-top: 12vh;
     width: 100vw;
     height: 25vh;
     text-align: center;
     font-size: 48px;
     user-select: none;
-}
+  }
 
-.quarter-border-educ {
+  .quarter-border-educ {
     height: 2px;
     width: 40%;
     background-color: #3f3f3f;
     justify-self: center;
-}
+  }
 
-.education-timeline {
+  .education-timeline {
     display: flex;
     flex-wrap: wrap;
     align-content: flex-start;
@@ -276,122 +276,121 @@ li {
     width: 50vw;
     justify-self: center;
     /* background-color: darkred; */
-}
+  }
 
-.education-date {
+  .education-date {
     width: 10vw;
     height: 25px;
     font-size: 18px;
     text-align: right;
     /* background-color: orange; */
-}
+  }
 
-.education-center-thin{
+  .education-center-thin {
     width: 10vw;
     height: 25px;
     /* background-color: yellow; */
-}
+  }
 
-.education-dot {
+  .education-dot {
     background-color: #20422b;
     width: 15px;
     height: 15px;
     justify-self: center;
     margin-top: 5px;
     border-radius: 100%;
-}
+  }
 
-.education-title {
+  .education-title {
     width: 30vw;
     height: 25px;
     text-align: left;
     font-size: 18px;
     /* background-color: green; */
-}
+  }
 
-.education-role {
+  .education-role {
     width: 10vw;
     /* background-color: darkgray; */
     text-align: right;
     font-size: 14px;
     color: #bbbbbb;
-}
+  }
 
-.education-center-thick {
+  .education-center-thick {
     width: 10vw;
     /* background-color: aqua; */
-}
+  }
 
-.education-line {
+  .education-line {
     width: 3px;
     margin-top: -5px;
     background-color: #20422b;
     justify-self: center;
-}
+  }
 
-.education-desc {
+  .education-desc {
     width: 30vw;
     text-align: left;
     font-size: 14px;
     margin-top: 10px;
-}
+  }
 
-.educ1 {
+  .educ1 {
     height: 100px;
-}
+  }
 
-.educ2 {
+  .educ2 {
     height: 80px;
-}
+  }
 
-li {
+  li {
     color: #bbbbbb;
     margin-top: 10px;
     list-style-type: disc;
-}
+  }
 
-@keyframes fade-in-right-educ{
+  @keyframes fade-in-right-educ {
     70% {
-        opacity: 0;
-        margin-left: 100px;
+      opacity: 0;
+      margin-left: 100px;
     }
     100% {
-        opacity: 1;
-        margin-left: 0px;
+      opacity: 1;
+      margin-left: 0px;
     }
-}
+  }
 
-@keyframes fade-in-left-educ{
+  @keyframes fade-in-left-educ {
     70% {
-        opacity: 0; 
-        margin-left: -100vw;
+      opacity: 0;
+      margin-left: -100vw;
     }
     100% {
-        opacity: 1;
-        margin-left: 0px;
+      opacity: 1;
+      margin-left: 0px;
     }
-}
+  }
 
-@keyframes fade-in-e1{
+  @keyframes fade-in-e1 {
     80% {
-        opacity: 0; 
+      opacity: 0;
     }
     95% {
-        opacity: 1;
+      opacity: 1;
     }
-}
+  }
 
-@keyframes fade-in-e2{
+  @keyframes fade-in-e2 {
     80% {
-        opacity: 0; 
+      opacity: 0;
     }
     100% {
-        opacity: 1;
+      opacity: 1;
     }
-}
+  }
 
-
-.resume {
+  .resume {
     height: 10vh;
     width: 50vw;
     /* background-color: red; */
@@ -399,9 +398,9 @@ li {
     justify-self: center;
     display: grid;
     user-select: none;
-}
+  }
 
-.resume-download-btn {
+  .resume-download-btn {
     margin-top: 10px;
     background-color: #20422b;
     width: 35%;
@@ -411,36 +410,36 @@ li {
     display: flex;
     align-items: center;
     transition: all 0.4s ease;
-}
+  }
 
-.resume-download-btn:hover {
+  .resume-download-btn:hover {
     transform: scale(1.1);
-}
+  }
 
-.download-txt {
+  .download-txt {
     width: 200px;
     justify-self: left;
     text-align: left;
     /* background-color: red; */
-}
+  }
 
-.download-icon {
+  .download-icon {
     margin: 10px;
     margin-right: 25px;
     margin-left: 25px;
     height: 25px;
     width: auto;
     /* background-color: red; */
-}
+  }
 
-.scroll-to-top {
+  .scroll-to-top {
     width: 100vw;
     height: 50px;
     display: flex;
     user-select: none;
-}
+  }
 
-.scroll-btn {
+  .scroll-btn {
     width: 90%;
     text-align: center;
     align-content: center;
@@ -452,28 +451,28 @@ li {
     display: flex;
     transition: all 0.4s ease;
     justify-content: center;
-}
+  }
 
-.scroll-btn:hover {
+  .scroll-btn:hover {
     transform: scale(1.1);
-}
+  }
 
-.scroll-box {
+  .scroll-box {
     width: 30%;
     height: 100%;
     display: flex;
     justify-content: center;
-}
+  }
 
-.scroll-txt {
+  .scroll-txt {
     height: 100%;
     width: auto;
     text-align: left;
     margin-right: auto;
-}
+  }
 
-.scroll-icon {
+  .scroll-icon {
     height: 50%;
     margin-left: auto;
-}
+  }
 }
